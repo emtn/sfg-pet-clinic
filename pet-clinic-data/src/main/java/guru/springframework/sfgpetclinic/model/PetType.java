@@ -9,6 +9,7 @@ import javax.persistence.Table;
 /**
  * Created by jt on 7/13/18.
  */
+@ToString
 @Getter
 @Setter
 @NoArgsConstructor
@@ -20,5 +21,5 @@ public class PetType extends BaseEntity {
 
     @Column(name = "name")
     private String name;
-    
+
 }
